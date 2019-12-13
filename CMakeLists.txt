@@ -3,4 +3,4 @@ project(file_system C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(file_system main.c)
+add_executable(file_system main.c disk.c disk.h main.h)
